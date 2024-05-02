@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Gilroy ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("/fonts/Gilroy_ExtraBold.woff2") format('woff2');
+  }
+  @font-face {
+    font-family: 'Gilroy Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/fonts/Gilroy_Bold.woff2") format('woff2');
+  }
+  @font-face {
+    font-family: 'Gilroy Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/Gilroy_Medium.woff2") format('woff2');
+  }
+  @font-face {
+    font-family: 'Gilroy Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/fonts/Gilroy_Regular.woff2") format('woff2');
+  }
